@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calborder">
+        <h1 style="text-align:center;">CALCULATOR</h1>
+          <table class="keys">
+              <tr>
+                <td  colspan="5"><input class="_lcdinput"  id="display" readonly></td>
+              </tr>
+            
+            <tr>
+                <td><input class="key" onclick="append(this.value)" type="button" value="1"></td>
+                <td> <input class="key" onclick="append(this.value)"type="button" value="2"></td>
+                <td><input class="key" onclick="append(this.value)"type="button" value="3"></td>
+                <td><input class="key" onclick="append(this.value)"type="button" value="+"></td>
+            </tr>
+            <tr>
+                <td><input class="key" onclick="append(this.value)"type="button" value="4"></td>
+                    <td><input class="key" onclick="append(this.value)"type="button" value="5"></td>
+                        <td><input class="key" onclick="append(this.value)"type="button" value="6"></td>
+                            <td><input class="key" onclick="append(this.value)"type="button" value="-"></td>
+            </tr>
+           <tr>
+            <td><input class="key" onclick="append(this.value)"type="button" value="7"></td>
+                <td><input class="key" onclick="append(this.value)"type="button" value="8"></td>
+                    <td><input class="key" onclick="append(this.value)"type="button" value="9"></td>
+                        <td><input class="key" onclick="append(this.value)"type="button" value="*"></td>
+           </tr>
+            <tr>
+                <td><input class="key" onclick="clr()" type="button" value="CLR"></td>
+               
+                <td><input class="key" onclick="append(this.value)"type="button" value="0"></td>
+                <td><input class="key" onclick="append(this.value)"type="button" value="."></td>
+               
+                <td><input class="key" onclick="append(this.value)"type="button" value="/"></td>
+                <td><input class="key" onclick="calculate()"type="button" value="ANS"></td>
+               
+            </tr>
+            <tr>
+                
+            </tr>
+            
+        </table>
+
+         
+         
+     
+    </div>
+    
+</body>
+</html>

@@ -2,7 +2,7 @@ function append(v){
 
  
    var pre=document.getElementById("display").value;
-   if(pre!="Invalid"){
+   if(pre!="Invalid"&&pre!="Infinity"&&pre!="undefined"){
       pre=pre+v;
       document.getElementById("display").value=pre;
    }

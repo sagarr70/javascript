@@ -4,12 +4,13 @@ body{
 .calborder{
     border: solid black;
     border-radius: 5px;
-    width: 500px;
-    margin: -100px 0 0 -150px;
-    background-color: rgb(192, 192, 192);
+    background-color: white;
+    width:500px;
+    height: 500px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     position: absolute;
-    top: 35%;
-    left: 45%;
 }
 
 ._lcdinput{

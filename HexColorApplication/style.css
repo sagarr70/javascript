@@ -1,4 +1,5 @@
 .changecolor{
+   cursor: pointer;
    color:white;
    background-color: black;
   width:100px;
